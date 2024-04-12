@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Cinzel&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Major+Mono+Display&family=Oswald:wght@300&family=Roboto+Condensed&display=swap');
+*, *::before, *::after {
+  box-sizing: border-box;
+  font-size: 25px;
+  font-family: 'Amatic SC', cursive;
+  font-family: 'Cinzel', serif;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Major Mono Display', monospace;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(nala.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #ffffff;
+}
+
+.container {
+  width: 800px;
+  max-width: 100%;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 2px;
+}
+
+
+.btn-grid {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.btn {
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: white;
+  outline: none;
+}
+
+.btn:hover {
+  border-color: black;
+}
